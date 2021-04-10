@@ -1,0 +1,9 @@
+<h3>{{product['name']}}</h3>
+
+<p>$ {{product['price']}}</p>
+
+{% if product['price'] > 50 %}
+    <p>Precio Regular</p>
+{% else %}
+    <p>Precio de Oferta!!!</p>
+{% endif %}

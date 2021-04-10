@@ -1,0 +1,11 @@
+{% extends 'layout/base.html' %}
+
+{% block container %}
+    {% include 'product/_message.html' %}
+
+    <form action="{{ url_for('product.create') }}" method="post">
+        {% include 'product/_form.html' %}
+        <input class="btn btn-success" type="submit" value="Enviar">
+    </form>
+    <br>
+{% endblock %}

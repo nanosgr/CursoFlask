@@ -1,0 +1,50 @@
+{% macro m_pagination(pagination, model) %}
+    <div class="container">
+        <div class="row">
+            <div class="col-3 py-2">
+                <p style="">Mostramos los registros</p>
+            </div>
+            <div class="col-9">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        {% if pagination.has_prev %}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ url_for(model, page=pagination.prev_num) }}">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                        {% else %}
+                            <li class="page-item disabled">
+                                <a href="#" class="page-link" aria-disabled="true">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {%- for page in pagination.iter_pages() %}
+                            {% if page != pagination.page %}
+                                <li class="page-item"><a class="page-link" href="{{ url_for(model, page=page) }}">{{ page }}</a></li>
+                            {% else %}
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link" href="#">{{ page }}</a>
+                                </li>
+                            {% endif %}
+                        {%- endfor %}
+                        {% if pagination.has_next %}
+                            <li class="page-item">
+                                <a class="page-link" href="{{ url_for(model, page=pagination.next_num) }}">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        {% else %}
+                            <li class="page-item disabled">
+                                <a href="#" class="page-link" aria-disabled="true">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+{%- endmacro %}

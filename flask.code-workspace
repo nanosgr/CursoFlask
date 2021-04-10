@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.envFile": "${workspaceFolder}/curso_flask",
+		"python.venvPath": "~/.local/lib/python3.6/site-packages/virtualenv",
+		"python.pythonPath": "/home/sebastian/miniconda3/envs/dj/bin/python"
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal"
+			}
+		]
+	}
+}

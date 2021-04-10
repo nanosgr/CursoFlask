@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esto lo hacemos para que no se agregue el error del favicon.ico -->
+    <link rel="shortcut icon" href="#">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='product/css/style.custom.css') }}">
+
+    <title>CRUD</title>
+</head>
+<body>
+    {% include 'fragment/_nav.html' %}
+    <div class="container">
+        {% block container %}
+        {% endblock %}
+    </div>
+    {% include 'fragment/_footer.html' %}
+    
+    <script src="{{ url_for('static', filename='global/js/jquery-3.5.1.slim.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='global/js/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='product/js/main.js') }}"></script>
+</body>
+</html>
