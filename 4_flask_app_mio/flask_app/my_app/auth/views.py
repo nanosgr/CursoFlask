@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, flash, request, redirect, url_for
+from flask import Blueprint, session, render_template, flash, request, redirect, url_for
 from werkzeug.exceptions import abort
 
 from my_app.auth.model.user import User, UserForm
@@ -26,3 +26,23 @@ def register():
       return redirect(url_for('auth.register'))
 
    return render_template('auth/register.html', form=form)
+
+
+@auth.route('/login', methods=('GET', 'POST'))
+def login():
+   form = UserForm(meta={'csrf': False})
+
+   if form.validate_on_submit():
+      user = User.query.filter_by(username=form.username.data).first()
+      if user and User.check_password(user, form.password.data):
+         # Registramos la sesión.
+         session['username'] = user.username
+         session['rol'] = user.rol.value
+         session['id'] = user.id
+         flash("Bienvenido nuevamente " + user.username)
+         return redirect(url_for('product.index'))
+      else:
+         # Error de password
+         flash('Usuario o Contraseña Incorrectos', 'danger')
+
+   return render_template('auth/login.html', form=form)
