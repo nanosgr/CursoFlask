@@ -19,13 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="715025ca-7a02-4698-943f-d0e9e0413e46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/4_flask_app_mio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/4_flask_app_mio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="715025ca-7a02-4698-943f-d0e9e0413e46" name="Default Changelist" comment="Agregamos el login.html y la funcion de login en views.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_app/my_app/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/auth/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +101,14 @@
       <option name="presentableId" value="Default" />
       <updated>1616637001432</updated>
     </task>
+    <task id="LOCAL-00001" summary="Agregamos el login.html y la funcion de login en views.py">
+      <created>1618027220316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618027220316</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -128,23 +131,27 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agregamos el login.html y la funcion de login en views.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregamos el login.html y la funcion de login en views.py" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1618026756543">
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1618027500157">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.767@0.0.1366.767" timestamp="1618026756543" />
-    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1618026756541">
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.767@0.0.1366.767" timestamp="1618027500157" />
+    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1618027500153">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.767@0.0.1366.767" timestamp="1618026756541" />
-    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1618026756540">
+    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.767@0.0.1366.767" timestamp="1618027500153" />
+    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1618027500151">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.767@0.0.1366.767" timestamp="1618026756540" />
-    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1618026756542">
+    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.767@0.0.1366.767" timestamp="1618027500151" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1618027500155">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.767@0.0.1366.767" timestamp="1618026756542" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.767@0.0.1366.767" timestamp="1618027500155" />
     <state x="192" y="0" key="SettingsEditor" timestamp="1618022629355">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
