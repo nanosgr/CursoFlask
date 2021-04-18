@@ -1,7 +1,7 @@
 from flask import Blueprint, session, render_template, flash, request, redirect, url_for
 from werkzeug.exceptions import abort
 
-from my_app.auth.model.user import User, UserForm
+from my_app.auth.model.user import User, LoginForm, RegisterForm
 from my_app import db
 
 from my_app.product.model.product import ProductForm
@@ -10,7 +10,7 @@ auth = Blueprint('auth', __name__)
 
 @auth.route('/register', methods=('GET', 'POST'))
 def register():
-   form = UserForm(meta={'csrf':False})
+   form = RegisterForm(meta={'csrf':False})
 
    if form.validate_on_submit():
 
@@ -30,7 +30,7 @@ def register():
 
 @auth.route('/login', methods=('GET', 'POST'))
 def login():
-   form = UserForm(meta={'csrf': False})
+   form = LoginForm(meta={'csrf': False})
 
    if form.validate_on_submit():
       user = User.query.filter_by(username=form.username.data).first()
@@ -46,3 +46,13 @@ def login():
          flash('Usuario o Contraseña Incorrectos', 'danger')
 
    return render_template('auth/login.html', form=form)
+
+@auth.route('/logout')
+def logout():
+    # Se usa en este caso el método pop para eliminar
+    # cada uno de los elementos de session
+    session.pop('username')
+    session.pop('id')
+    session.pop('rol')
+
+    return redirect(url_for('auth.login'))

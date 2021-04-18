@@ -1,10 +1,17 @@
 {% extends 'layout/base.html' %}
 
 {% block container %}
-    {% include 'product/_message.html' %}
+    {% include 'auth/_message.html' %}
 
     <form action="{{ url_for('auth.login') }}" method="post">
-        {% include 'auth/_form.html' %}
+        <div class="form-group">
+            {{ form.username.label }}
+            {{ form.username(class="form-control", placeholder="Usuario") }}
+        </div>
+        <div class="form-group">
+            {{ form.password.label }}
+            {{ form.password(class="form-control", placeholder="Contraseña") }}
+        </div>
         <input class="btn btn-success" type="submit" value="Enviar">
     </form>
     <br>

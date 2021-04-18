@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="715025ca-7a02-4698-943f-d0e9e0413e46" name="Default Changelist" comment="Agregamos el login.html y la funcion de login en views.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/my_app/auth/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/auth/model/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/my_app/auth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/auth/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/my_app/templates/auth/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/my_app/templates/auth/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/templates/auth/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/flask_app/my_app/templates/auth" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -130,31 +137,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregamos el login.html y la funcion de login en views.py" />
     <option name="LAST_COMMIT_MESSAGE" value="Agregamos el login.html y la funcion de login en views.py" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1618027500157">
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1618772382813">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.767@0.0.1366.767" timestamp="1618027500157" />
-    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1618027500153">
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.767@0.0.1366.767" timestamp="1618772382813" />
+    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1618772382813">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.767@0.0.1366.767" timestamp="1618027500153" />
-    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1618027500151">
+    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.767@0.0.1366.767" timestamp="1618772382813" />
+    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1618772382812">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.767@0.0.1366.767" timestamp="1618027500151" />
-    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1618027500155">
+    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.767@0.0.1366.767" timestamp="1618772382812" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1618772382813">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
-    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.767@0.0.1366.767" timestamp="1618027500155" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.767@0.0.1366.767" timestamp="1618772382813" />
     <state x="192" y="0" key="SettingsEditor" timestamp="1618022629355">
       <screen x="0" y="0" width="1366" height="767" />
     </state>
     <state x="192" y="0" key="SettingsEditor/0.0.1366.767@0.0.1366.767" timestamp="1618022629355" />
+    <state x="486" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1618768478063">
+      <screen x="0" y="0" width="1366" height="767" />
+    </state>
+    <state x="486" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.767@0.0.1366.767" timestamp="1618768478063" />
   </component>
 </project>

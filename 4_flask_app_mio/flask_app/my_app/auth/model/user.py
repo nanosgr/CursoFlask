@@ -2,15 +2,17 @@ from my_app import db
 
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField
-from wtforms.validators import InputRequired
+from wtforms.validators import InputRequired, EqualTo
 from sqlalchemy import Enum
 from werkzeug.security import check_password_hash, generate_password_hash
 
 import enum
 
+
 class RolUser(enum.Enum):
     regular = 1
     admin = 6
+
 
 class User(db.Model):
     __tablename__ = 'users'
@@ -31,6 +33,17 @@ class User(db.Model):
         return check_password_hash(self.pwhash, password)
 
 
-class UserForm(FlaskForm):
+class LoginForm(FlaskForm):
     username = StringField('Usuario', validators=[InputRequired()])
     password = PasswordField('Contraseña', validators=[InputRequired()])
+
+
+class RegisterForm(FlaskForm):
+    username = StringField('Usuario', validators=[InputRequired()])
+    password = PasswordField('Contraseña', validators=[InputRequired(), EqualTo('confirm')])
+    confirm = PasswordField('Repetir Contraseña')
+
+
+class ChangePassword(FlaskForm):
+    password = PasswordField('New Password', [InputRequired(), EqualTo('confirm', message='Passwords must match')])
+    confirm = PasswordField('Repeat Password')
