@@ -3,7 +3,7 @@ from flask import Blueprint, render_template, flash, request, redirect, url_for
 from werkzeug.exceptions import abort
 from flask_login import login_required
 
-from my_app import db
+from my_app import db, role_admin_need
 from my_app.product.model.category import Category
 from my_app.product.model.category import CategoryForm
 
@@ -11,6 +11,7 @@ category = Blueprint('category', __name__)
 
 @category.before_request
 @login_required
+@role_admin_need
 def constructor():
     pass
 

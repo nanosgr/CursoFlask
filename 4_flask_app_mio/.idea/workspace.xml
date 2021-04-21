@@ -21,82 +21,15 @@
   <component name="ChangeListManager">
     <list default="true" id="715025ca-7a02-4698-943f-d0e9e0413e46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask_app/my_app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_app/my_app/auth/model/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/auth/model/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_app/my_app/fauth/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/fauth/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_app/my_app/product/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/product/category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask_app/my_app/product/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/product/product.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1859358761">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.16" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="9" />
-          <entry key="py" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="9" />
-          <entry key="Python" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="html" value="949" />
-          <entry key="py" value="659" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="949" />
-          <entry key="Python" value="659" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flask_app/my_app/product/product.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="8" />
-              <folding>
-                <element signature="e#25#104#0" expanded="true" />
-                <marker date="1618886398059" expanded="true" signature="459:470" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flask_app/my_app/product/category.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding>
-                <element signature="e#25#104#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -118,96 +51,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/flask_app/my_app/templates/auth/_message.html" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/auth/views.py" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/__init__.py" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/templates/fragment/_nav.html" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/templates/auth/register.html" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/auth/model/user.py" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/fauth/views.py" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/product/product.py" />
-        <option value="$PROJECT_DIR$/flask_app/my_app/product/category.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="635" />
-    <option name="y" value="1" />
-    <option name="width" value="1286" />
-    <option name="height" value="1072" />
-  </component>
   <component name="ProjectId" id="1qxY6v3qtAlQJESgtFUMbKmxoBS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my_app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my_app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my_app" type="462c0819:PsiDirectoryNode" />
-              <item name="fauth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my_app" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="4_flask_app_mio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_flask_app_mio" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -225,18 +70,6 @@
       <recent name="$PROJECT_DIR$/flask_app/my_app/fauth" />
       <recent name="$PROJECT_DIR$/flask_app/my_app/templates/auth" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -303,49 +136,17 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="635" y="1" width="1286" height="1072" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32938644" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32938644" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49957877" weight="0.32938644" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004212" side_tool="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32938644" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Agregamos el login.html y la funcion de login en views.py" />
@@ -364,122 +165,5 @@
     <state x="192" y="0" key="SettingsEditor/0.0.1366.767@0.0.1366.767" />
     <state x="486" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" />
     <state x="486" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.767@0.0.1366.767" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flask_app/run.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.7.0/lib/python3.7/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2683">
-          <caret line="752" selection-start-line="752" selection-end-line="752" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.7.0/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1026" selection-start-line="1026" selection-end-line="1026" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/product/model/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/templates/auth/_message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/auth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/templates/fragment/_nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/templates/auth/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/fauth/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-            <marker date="1618885761842" expanded="true" signature="416:454" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/templates/auth/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/auth/model/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1618885042607" expanded="true" signature="773:807" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/product/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#104#0" expanded="true" />
-            <marker date="1618886398059" expanded="true" signature="459:470" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask_app/my_app/product/category.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding>
-            <element signature="e#25#104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

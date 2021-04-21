@@ -10,8 +10,8 @@ import enum
 
 
 class RolUser(enum.Enum):
-    regular = 1
-    admin = 6
+    regular = 'regular'
+    admin = 'admin'
 
 
 class User(db.Model):
