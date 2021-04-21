@@ -15,10 +15,18 @@
                         {{ form.password.label }}
                         {{ form.password(class="form-control", placeholder="Contraseña") }}
                     </div>
+                    {{ form.next() }}
                     <input class="btn btn-success" type="submit" value="Enviar">
                 </form>
             </div>
         </div>
     </div>
     <br>
+
+    <script>
+        var params = new URLSearchParams(window.location.search)
+        if(params.has("next"))
+            document.getElementById("next").value = params.get("next")
+        console.log(document.getElementById("next").value)
+    </script>
 {% endblock %}

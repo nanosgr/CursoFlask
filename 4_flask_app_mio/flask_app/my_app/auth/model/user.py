@@ -1,7 +1,7 @@
 from my_app import db
 
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField
+from wtforms import StringField, PasswordField, HiddenField
 from wtforms.validators import InputRequired, EqualTo
 from sqlalchemy import Enum
 from werkzeug.security import check_password_hash, generate_password_hash
@@ -51,6 +51,7 @@ class User(db.Model):
 class LoginForm(FlaskForm):
     username = StringField('Usuario', validators=[InputRequired()])
     password = PasswordField('Contraseña', validators=[InputRequired()])
+    next = HiddenField('next')
 
 
 class RegisterForm(FlaskForm):

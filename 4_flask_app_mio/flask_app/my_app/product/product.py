@@ -1,6 +1,7 @@
 # from my_app import app
 from flask import Blueprint, render_template, flash, request, redirect, url_for
 from werkzeug.exceptions import abort
+from flask_login import login_required
 
 from my_app import db
 from my_app.product.model.product import Product
@@ -8,6 +9,11 @@ from my_app.product.model.category import Category
 from my_app.product.model.product import ProductForm
 
 product = Blueprint('product', __name__)
+
+@product.before_request
+@login_required
+def constructor():
+    pass
 
 @product.route('/product')
 @product.route('/product/<int:page>')

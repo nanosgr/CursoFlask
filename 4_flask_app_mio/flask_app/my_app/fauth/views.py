@@ -49,7 +49,7 @@ def login():
             login_user(user)
             flash("Bienvenido nuevamente " + user.username)
 
-            next = request.args.get('next')
+            next = request.form['next']
             # is_safe_url should check if the url is safe for redirects.
             # See http://flask.pocoo.org/snippets/62/ for an example.
             # if not is_safe_url(next):
